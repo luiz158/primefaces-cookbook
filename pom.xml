@@ -27,6 +27,18 @@
             <name>PrimeFaces Maven Repository</name>
             <url>http://repository.primefaces.org</url>
         </repository>
+<!-- jsf 2.1 and later -->
+        <repository>
+            <id>jvnet-nexus-releases</id>
+            <name>jvnet-nexus-releases</name>
+            <url>https://maven.java.net/content/repositories/releases/</url>
+        </repository>
+<!-- jsf 2.2-SNAPSHOT and later -->
+        <repository>
+            <id>jvnet-nexus-snapshots</id>
+            <name>jvnet-nexus-snapshots</name>
+            <url>https://maven.java.net/content/repositories/snapshots/</url>
+        </repository>
     </repositories>
 
     <issueManagement>
@@ -682,7 +694,7 @@
                 <jsf.displayname>MyFaces</jsf.displayname>
                 <jsf.group>org.apache.myfaces.core</jsf.group>
                 <jsf.artifact>myfaces</jsf.artifact>
-                <jsf.version>2.1.10</jsf.version>
+                <jsf.version>2.1.12</jsf.version>
             </properties>
         </profile>
         <profile>
@@ -693,9 +705,9 @@
             <properties>
                 <jsf.impl>mojarra</jsf.impl>
                 <jsf.displayname>Mojarra</jsf.displayname>
-                <jsf.group>com.sun.faces</jsf.group>
-                <jsf.artifact>jsf</jsf.artifact>
-                <jsf.version>2.1.13</jsf.version>
+                <jsf.group>javax.faces</jsf.group>
+                <jsf.artifact>javax.faces</jsf.artifact>
+                <jsf.version>2.2</jsf.version>
             </properties>
         </profile>
     </profiles>

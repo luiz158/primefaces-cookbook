@@ -705,9 +705,14 @@
             <properties>
                 <jsf.impl>mojarra</jsf.impl>
                 <jsf.displayname>Mojarra</jsf.displayname>
+<!--
                 <jsf.group>javax.faces</jsf.group>
                 <jsf.artifact>javax.faces</jsf.artifact>
                 <jsf.version>2.2</jsf.version>
+-->
+                <jsf.group>com.sun.faces</jsf.group>
+                <jsf.artifact>jsf</jsf.artifact>
+                <jsf.version>2.1.26</jsf.version>
             </properties>
         </profile>
     </profiles>

@@ -701,8 +701,8 @@
     </profiles>
 
     <properties>
-        <java.version.source>1.6</java.version.source>
-        <java.version.target>1.6</java.version.target>
+        <java.version.source>1.7</java.version.source>
+        <java.version.target>1.7</java.version.target>
         <project.build.sourceEncoding>iso-8859-1</project.build.sourceEncoding>
         <primefaces.theme.version>1.0.9</primefaces.theme.version>
     </properties>

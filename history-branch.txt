@@ -1,0 +1,23 @@
+git clone git@github.com:luiz158/primefaces-cookbook.git
+cd primefaces-cookbook/
+git status
+git branch -a
+git remote add autor https://github.com/ova2/primefaces-cookbook
+git status
+git branch -a
+vim .git/config 
+
+git checkout autor/second-edition 
+git checkout -b second-edition autor/second-edition 
+git checkout -b second-edition2 autor/second-edition 
+git status
+git branch -r
+git branch -a
+git branch -v -a
+vim .git/config 
+git push origin second-edition2
+git branch -a
+
+git remote update
+
+ 

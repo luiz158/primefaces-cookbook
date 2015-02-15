@@ -21,3 +21,17 @@ git branch -a
 git remote update
 
  
+git checkout --track -b test autor/second-edition
+git status
+git add history-branch.txt 
+git commit -am 'history ...'
+git push
+git push origin second-edition2
+git status
+git fetch origin 
+git checkout --track -b meu origin/second-edition2 
+git status
+vim .git/config 
+
+git branch -a
+
